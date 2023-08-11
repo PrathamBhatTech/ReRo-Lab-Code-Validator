@@ -1,0 +1,21 @@
+aws_credentials:
+  aws_access_key_id: YOUR_ACCESS_KEY
+  aws_secret_access_key: YOUR_SECRET_KEY
+
+s3_settings:
+  aws_bucket_name: BUCKET_NAME
+  prefix: /path/to/s3/file
+
+local_settings:
+  local_file_path: /path/to/local/file
+
+allowed_libraries:
+  - math
+  - numpy
+  - pandas
+  - scipy
+  - sklearn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - plotly
